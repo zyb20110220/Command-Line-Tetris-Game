@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspaces/Tetris/build",
+  "command": "/usr/bin/c++  -I/workspaces/Tetris/include -g -std=gnu++17 -o CMakeFiles/tetris.dir/src/game_logic.cpp.o -c /workspaces/Tetris/src/game_logic.cpp",
+  "file": "/workspaces/Tetris/src/game_logic.cpp",
+  "output": "CMakeFiles/tetris.dir/src/game_logic.cpp.o"
+},
+{
+  "directory": "/workspaces/Tetris/build",
+  "command": "/usr/bin/c++  -I/workspaces/Tetris/include -g -std=gnu++17 -o CMakeFiles/tetris.dir/src/game_state.cpp.o -c /workspaces/Tetris/src/game_state.cpp",
+  "file": "/workspaces/Tetris/src/game_state.cpp",
+  "output": "CMakeFiles/tetris.dir/src/game_state.cpp.o"
+},
+{
+  "directory": "/workspaces/Tetris/build",
+  "command": "/usr/bin/c++  -I/workspaces/Tetris/include -g -std=gnu++17 -o CMakeFiles/tetris.dir/src/renderer.cpp.o -c /workspaces/Tetris/src/renderer.cpp",
+  "file": "/workspaces/Tetris/src/renderer.cpp",
+  "output": "CMakeFiles/tetris.dir/src/renderer.cpp.o"
+},
+{
+  "directory": "/workspaces/Tetris/build",
+  "command": "/usr/bin/c++  -I/workspaces/Tetris/include -g -std=gnu++17 -o CMakeFiles/tetris.dir/src/terminal.cpp.o -c /workspaces/Tetris/src/terminal.cpp",
+  "file": "/workspaces/Tetris/src/terminal.cpp",
+  "output": "CMakeFiles/tetris.dir/src/terminal.cpp.o"
+},
+{
+  "directory": "/workspaces/Tetris/build",
+  "command": "/usr/bin/c++  -I/workspaces/Tetris/include -g -std=gnu++17 -o CMakeFiles/tetris.dir/src/tetris.cpp.o -c /workspaces/Tetris/src/tetris.cpp",
+  "file": "/workspaces/Tetris/src/tetris.cpp",
+  "output": "CMakeFiles/tetris.dir/src/tetris.cpp.o"
+}
+]
