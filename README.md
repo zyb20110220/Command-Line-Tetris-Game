@@ -1,6 +1,6 @@
 # Command Line Tetris Game
 
-This is a command-line interface implementation of the classic Tetris game, written in C++. The game features colored blocks, score tracking, level system, and more.
+A command-line implementation of the classic Tetris game written in C++, featuring colored blocks, score tracking, level system, and more.
 
 ## Features
 
@@ -11,11 +11,13 @@ This is a command-line interface implementation of the classic Tetris game, writ
 - Display of current score, level, and cleared lines
 - Game speed increases with level progression
 
-## Start Screen
-![alt text](resources/start-page.bmp)
+## Game Interface
 
-## Game Screen
-![alt text](resources/game-page.bmp)
+### Start Screen
+![Start Screen](resources/start-page.bmp)
+
+### Game Screen
+![Game Screen](resources/game-page.bmp)
 
 ## System Requirements
 
@@ -32,7 +34,7 @@ mkdir -p build
 cd build
 ```
 
-2. Generate build files with CMake:
+2. Generate build files:
 ```bash
 cmake ..
 ```
@@ -47,9 +49,18 @@ make
 ./tetris
 ```
 
-5. If you want to finish all builds at the same time:
+5. One-command build and run (optional):
 ```bash
 cd /workspaces/Command-Line-Tetris-Game && rm -rf build && mkdir build && cd build && cmake .. && make && cd /workspaces/Command-Line-Tetris-Game/build && ./tetris
+```
+
+## Testing
+
+The project includes automated tests that can be run using:
+
+```bash
+cd build
+ctest
 ```
 
 ## Game Controls
@@ -74,18 +85,23 @@ cd /workspaces/Command-Line-Tetris-Game && rm -rf build && mkdir build && cd bui
 ```
 .
 ├── CMakeLists.txt          # CMake build configuration
-├── include/                # Header files directory
-│   ├── game_logic.h       # Game logic
-│   ├── game_state.h       # Game state
-│   ├── renderer.h         # Renderer
-│   ├── terminal.h         # Terminal control
-│   └── tetris.h           # Main game class
-└── src/                    # Source files directory
-    ├── game_logic.cpp     # Game logic implementation
-    ├── game_state.cpp     # Game state implementation
-    ├── renderer.cpp       # Renderer implementation
-    ├── terminal.cpp       # Terminal control implementation
-    └── tetris.cpp         # Main game implementation
+├── auto_release/           # Auto-release scripts
+│   └── release.ts         # Auto-release implementation
+├── include/               # Header files directory
+│   ├── game_logic.h      # Game logic
+│   ├── game_state.h      # Game state
+│   ├── renderer.h        # Renderer
+│   ├── terminal.h        # Terminal control
+│   └── tetris.h          # Main game class
+├── resources/            # Resources directory
+│   ├── game-page.bmp    # Game screen screenshot
+│   └── start-page.bmp   # Start screen screenshot
+└── src/                  # Source files directory
+    ├── game_logic.cpp   # Game logic implementation
+    ├── game_state.cpp   # Game state implementation
+    ├── renderer.cpp     # Renderer implementation
+    ├── terminal.cpp     # Terminal control implementation
+    └── tetris.cpp       # Main game implementation
 ```
 
 ## Technical Details
@@ -96,12 +112,19 @@ This project utilizes:
 - CMake Build System
 - Object-Oriented Programming Design
 
+## Automated Releases
+
+The project is configured with an automated release system that creates new releases every Monday. Each release includes:
+- Compiled executable
+- Version number and release notes
+- Build timestamp
+
 ## Contributing
 
 Contributions and suggestions are welcome. If you'd like to contribute:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Create a Pull Request
