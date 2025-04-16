@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/Tetris/src/game_logic.cpp" "CMakeFiles/tetris.dir/src/game_logic.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/game_logic.cpp.o.d"
-  "/workspaces/Tetris/src/game_state.cpp" "CMakeFiles/tetris.dir/src/game_state.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/game_state.cpp.o.d"
-  "/workspaces/Tetris/src/renderer.cpp" "CMakeFiles/tetris.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/renderer.cpp.o.d"
-  "/workspaces/Tetris/src/terminal.cpp" "CMakeFiles/tetris.dir/src/terminal.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/terminal.cpp.o.d"
-  "/workspaces/Tetris/src/tetris.cpp" "CMakeFiles/tetris.dir/src/tetris.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/tetris.cpp.o.d"
+  "/workspaces/Command-Line-Tetris-Game/src/game_logic.cpp" "CMakeFiles/tetris.dir/src/game_logic.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/game_logic.cpp.o.d"
+  "/workspaces/Command-Line-Tetris-Game/src/game_state.cpp" "CMakeFiles/tetris.dir/src/game_state.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/game_state.cpp.o.d"
+  "/workspaces/Command-Line-Tetris-Game/src/renderer.cpp" "CMakeFiles/tetris.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/renderer.cpp.o.d"
+  "/workspaces/Command-Line-Tetris-Game/src/terminal.cpp" "CMakeFiles/tetris.dir/src/terminal.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/terminal.cpp.o.d"
+  "/workspaces/Command-Line-Tetris-Game/src/tetris.cpp" "CMakeFiles/tetris.dir/src/tetris.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/tetris.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

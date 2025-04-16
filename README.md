@@ -47,6 +47,11 @@ make
 ./tetris
 ```
 
+5. If you want to finish all builds at the same time:
+```bash
+cd /workspaces/Command-Line-Tetris-Game && rm -rf build && mkdir build && cd build && cmake .. && make && cd /workspaces/Command-Line-Tetris-Game/build && ./tetris
+```
+
 ## Game Controls
 
 - ←: Move piece left

@@ -1,6 +1,8 @@
-CMakeFiles/tetris.dir/src/tetris.cpp.o: /workspaces/Tetris/src/tetris.cpp \
- /usr/include/stdc-predef.h /workspaces/Tetris/src/../include/tetris.h \
- /workspaces/Tetris/src/../include/game_state.h \
+CMakeFiles/tetris.dir/src/tetris.cpp.o: \
+ /workspaces/Command-Line-Tetris-Game/src/tetris.cpp \
+ /usr/include/stdc-predef.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/tetris.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_state.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -118,8 +120,8 @@ CMakeFiles/tetris.dir/src/tetris.cpp.o: /workspaces/Tetris/src/tetris.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /workspaces/Tetris/src/../include/terminal.h /usr/include/termios.h \
- /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
+ /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
@@ -130,7 +132,7 @@ CMakeFiles/tetris.dir/src/tetris.cpp.o: /workspaces/Tetris/src/tetris.cpp \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /workspaces/Tetris/src/../include/game_logic.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_logic.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -142,8 +144,8 @@ CMakeFiles/tetris.dir/src/tetris.cpp.o: /workspaces/Tetris/src/tetris.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/c++/13/bits/parse_numbers.h \
- /workspaces/Tetris/src/../include/renderer.h \
- /workspaces/Tetris/src/../include/terminal.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/renderer.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

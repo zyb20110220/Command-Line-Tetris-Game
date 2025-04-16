@@ -1,6 +1,7 @@
 CMakeFiles/tetris.dir/src/game_state.cpp.o: \
- /workspaces/Tetris/src/game_state.cpp /usr/include/stdc-predef.h \
- /workspaces/Tetris/src/../include/game_state.h \
+ /workspaces/Command-Line-Tetris-Game/src/game_state.cpp \
+ /usr/include/stdc-predef.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_state.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

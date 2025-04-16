@@ -1,7 +1,8 @@
 CMakeFiles/tetris.dir/src/game_logic.cpp.o: \
- /workspaces/Tetris/src/game_logic.cpp /usr/include/stdc-predef.h \
- /workspaces/Tetris/src/../include/game_logic.h \
- /workspaces/Tetris/src/../include/game_state.h \
+ /workspaces/Command-Line-Tetris-Game/src/game_logic.cpp \
+ /usr/include/stdc-predef.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_logic.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_state.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -130,10 +131,10 @@ CMakeFiles/tetris.dir/src/game_logic.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/c++/13/bits/parse_numbers.h \
- /workspaces/Tetris/src/../include/game_state.h \
- /workspaces/Tetris/src/../include/renderer.h \
- /workspaces/Tetris/src/../include/terminal.h /usr/include/termios.h \
- /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_state.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/renderer.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
+ /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
@@ -144,9 +145,9 @@ CMakeFiles/tetris.dir/src/game_logic.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /workspaces/Tetris/src/../include/tetris.h \
- /workspaces/Tetris/src/../include/terminal.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/std_thread.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/tetris.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \

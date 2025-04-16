@@ -1,7 +1,8 @@
 CMakeFiles/tetris.dir/src/renderer.cpp.o: \
- /workspaces/Tetris/src/renderer.cpp /usr/include/stdc-predef.h \
- /workspaces/Tetris/src/../include/renderer.h \
- /workspaces/Tetris/src/../include/game_state.h \
+ /workspaces/Command-Line-Tetris-Game/src/renderer.cpp \
+ /usr/include/stdc-predef.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/renderer.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/game_state.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -119,8 +120,8 @@ CMakeFiles/tetris.dir/src/renderer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /workspaces/Tetris/src/../include/terminal.h /usr/include/termios.h \
- /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
+ /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \

@@ -85,21 +85,40 @@ bool isValidMove(int x, int y)
 
 void rotatePiece()
 {
-	// 创建临时数组存储旋转后的方块
-	int temp[4][4];
-	// 实现90度顺时针旋转
-	for (int i = 0; i < 4; i++)
-		for (int j = 0; j < 4; j++)
-			temp[i][j] = currentPiece[3 - j][i];
-
-	// 检查旋转后的位置是否有效
-	if (isValidMove(currentX, currentY))
-	{
-		// 更新方块为旋转后的状态
-		for (int i = 0; i < 4; i++)
-			for (int j = 0; j < 4; j++)
-				currentPiece[i][j] = temp[i][j];
-	}
+    int temp[4][4];
+    // 实现90度顺时针旋转
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
+            temp[i][j] = currentPiece[3 - j][i];
+            
+    // 临时保存当前方块状态
+    int backup[4][4];
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
+            backup[i][j] = currentPiece[i][j];
+            
+    // 临时应用旋转
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
+            currentPiece[i][j] = temp[i][j];
+    
+    // 检查旋转后的位置是否有效，如果无效则尝试左右移动一格
+    if (!isValidMove(currentX, currentY)) {
+        // 尝试向左移动一格
+        if (isValidMove(currentX - 1, currentY)) {
+            currentX--;
+            return;
+        }
+        // 尝试向右移动一格
+        if (isValidMove(currentX + 1, currentY)) {
+            currentX++;
+            return;
+        }
+        // 如果都不行，恢复到原始状态
+        for (int i = 0; i < 4; i++)
+            for (int j = 0; j < 4; j++)
+                currentPiece[i][j] = backup[i][j];
+    }
 }
 
 void clearLines()

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/tetris.dir/src/game_logic.cpp.o CMakeFiles/tetris.dir/src/game_state.cpp.o CMakeFiles/tetris.dir/src/renderer.cpp.o CMakeFiles/tetris.dir/src/terminal.cpp.o CMakeFiles/tetris.dir/src/tetris.cpp.o -o tetris 
+/usr/bin/c++ CMakeFiles/tetris.dir/src/game_logic.cpp.o CMakeFiles/tetris.dir/src/game_state.cpp.o CMakeFiles/tetris.dir/src/renderer.cpp.o CMakeFiles/tetris.dir/src/terminal.cpp.o CMakeFiles/tetris.dir/src/tetris.cpp.o -o tetris 

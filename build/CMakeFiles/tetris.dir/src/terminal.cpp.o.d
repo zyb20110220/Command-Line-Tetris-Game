@@ -1,7 +1,9 @@
 CMakeFiles/tetris.dir/src/terminal.cpp.o: \
- /workspaces/Tetris/src/terminal.cpp /usr/include/stdc-predef.h \
- /workspaces/Tetris/src/../include/terminal.h /usr/include/termios.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /workspaces/Command-Line-Tetris-Game/src/terminal.cpp \
+ /usr/include/stdc-predef.h \
+ /workspaces/Command-Line-Tetris-Game/src/../include/terminal.h \
+ /usr/include/termios.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
